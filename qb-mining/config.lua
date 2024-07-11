@@ -231,6 +231,19 @@ Config = {
 		vector4(-458.09, 1999.59, 123.47, 338.54),
 		vector4(-445.97, 2011.57, 123.4, 308.83),
 	},
+	
+--------gpt shit-----
+	Config.MiningZones = {
+    ['CopperMine'] = {
+			coords = vector3(2732.5, 2770.3, 38.0), -- Example coordinates near Alamo Sea
+			name = 'Copper Mine',
+			color = 2,
+			sprite = 618,
+			radius = 100.0,
+			minedItem = 'copperore',
+		},
+	},
+
 
 ------------------------------------------------------------
 --Mining Store Items
@@ -247,6 +260,7 @@ Config = {
 		},
 	},
 }
+
 Crafting = {
 	SmeltMenu = {
 		{ ["copper"] = { ["copperore"] = 1 }, ['amount'] = 4 },
